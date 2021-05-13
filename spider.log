@@ -1,0 +1,198 @@
+2020-12-24 21:17:27 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-28-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:27 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-17-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:27 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-28-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:27 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-17-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:27 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-18-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:27 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-18-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:28 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-19-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:28 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-19-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:28 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-25-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:28 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-25-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:28 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-23-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:28 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-23-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-24-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-29-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-24-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-10-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-29-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-15-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-10-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-16-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-15-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-30-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-16-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-17-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-30-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-23-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-17-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-23-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:30 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-21-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-21-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:30 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-07-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-07-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-06-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-26-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-06-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-20-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-26-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-22-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-20-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-21-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-22-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-15-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-21-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-01-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-15-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-01-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:31 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-09-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:32 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-09-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:32 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-08-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:32 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-08-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:33 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-27-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-27-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:33 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-13-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-13-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:57 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-16-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:57 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-12-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:57 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-10-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:57 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-16-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:17:57 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-12-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:06 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-10-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:07 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-20-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:07 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-05-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:07 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-12-2020.csv> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:14 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-20-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:14 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-05-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2020-12-24 21:18:14 [scrapy.core.scraper] ERROR: Error downloading <GET https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-12-2020.csv>
+Traceback (most recent call last):
+  File "D:\Applications\Scoop\apps\python\current\lib\site-packages\scrapy\core\downloader\middleware.py", line 44, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
